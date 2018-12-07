@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
 
+}
 body {
   background-color: #ebe6ab;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Mosk'
   color: ##000000;
 }
 .main-column {
