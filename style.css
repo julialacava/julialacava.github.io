@@ -1,10 +1,25 @@
 @font-face {
-
+font-family: "Mosk Extra Bold";
+src: url("/fonts/MoskExtraBold.ttf");
 }
+@font-face {
+font-family: "Mosk Thin";
+src: url("fonts/MoskThin.ttf");
+}
+
+
+h1 {
+  font-family:'Mosk Extra Bold', Fallback, sans-serif;
+}
+
+h2 {
+  font-family:'Mosk Extra Bold', Fallback, sans-serif;
+}
+
 body {
   background-color: #ebe6ab;
-  font-family:'Mosk'
-  color: ##000000;
+  font-family:'Mosk Thin', Fallback, sans-serif;
+  color: #000000;
 }
 .main-column {
   padding-left: 10%;
