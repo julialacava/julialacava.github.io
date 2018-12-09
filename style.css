@@ -9,14 +9,17 @@ src: url("fonts/MoskThin.ttf");
 
 
 h1 {
+  font-size: 40px;
   font-family:'Mosk Extra Bold', Fallback, sans-serif;
 }
 
 h2 {
+  font-size: 40px;
   font-family:'Mosk Extra Bold', Fallback, sans-serif;
 }
 
 body {
+  font-size: 30px;
   background-color: #ebe6ab;
   font-family:'Mosk Thin', Fallback, sans-serif;
   color: #000000;
@@ -35,6 +38,7 @@ body {
     flex: 50%;
 }
 a:link {
+  font-size: 25px;
   text-decoration: none;
   color: #000000;
 }
@@ -56,7 +60,7 @@ a:active {
 .title p {
     opacity: 0;
     margin-top: 25px;
-    font-size: 21px;
+    font-size: 30px;
     text-align: center;
     -webkit-transition: opacity 2s ease-in;
     -moz-transition: opacity 2s ease-in;
