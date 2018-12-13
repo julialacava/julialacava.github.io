@@ -37,6 +37,8 @@ body {
 .column {
     flex: 50%;
 }
+
+
 a:link {
   font-size: 25px;
   text-decoration: none;
